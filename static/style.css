@@ -1,0 +1,64 @@
+body {
+    background-color: #F8F9FA;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#add-button {
+    color: #4A90E2;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+#clear-button {
+    color:#E06666;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+#task-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+#add-button:hover {
+   background-color: #d3d4d6;
+   cursor:pointer;
+    border-radius: 5px;
+}
+
+#clear-button:hover {
+   background-color: #d3d4d6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #080909;
+    cursor: pointer;
+}
