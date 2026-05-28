@@ -26,14 +26,14 @@ h1 {
 }
 
 #add-button {
-    color: #4A90E2;
+    color: #fbfbfb;
     padding: 8px;
     font-size: 16px;
     border: none;
 }
 
 #clear-button {
-    color:#E06666;
+    color:#7d1111;
     padding: 8px;
     font-size: 16px;
     border: none;
@@ -61,4 +61,17 @@ h1 {
 a:hover {
     color: #080909;
     cursor: pointer;
+}
+
+@keyframes rainbow {
+    0% { color: #FF0000; }
+    20% { color: #FF7F00; }
+    40% { color: #FFFF00; }
+    60% { color: #00FF00; }
+    80% { color: #0000FF; }
+    100% { color: #746d79; }
+}
+
+.animated-title {
+    animation: rainbow 5s linear infinite;
 }
